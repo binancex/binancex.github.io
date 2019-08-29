@@ -188,7 +188,7 @@ var fellowship_fellows_context = {
       }, 
       {
             name:'John-Paul Thorbjornsen', 
-            img_url: './static/fellows/019_BNBTools_JohnPaul-Thorbjornsen.png', 
+            img_url: './static/fellows/019_BEPTools_JohnPaul-Thorbjornsen.png', 
             project: 'BEPTools',
             data_url: '019_fellowship_BEPtools'
       }, 
