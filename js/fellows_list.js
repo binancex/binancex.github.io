@@ -49,12 +49,6 @@ var fellowship_fellows_context = {
             data_url: '013_fellowship_burner_wallet'
       },
       {
-            name:'Cameron Stuart', 
-            img_url: './static/fellows/019_BNBTools_Cameron-Stuart.png', 
-            project: 'BNBTools',
-            data_url: '019_fellowship_BNBtools'
-      }, 
-      {
             name:'Casmir Patterson', 
             img_url: './static/fellows/016_RaxxCity_Casmir.png', 
             project: 'Raxx City',
@@ -195,8 +189,8 @@ var fellowship_fellows_context = {
       {
             name:'John-Paul Thorbjornsen', 
             img_url: './static/fellows/019_BNBTools_JohnPaul-Thorbjornsen.png', 
-            project: 'BNBTools',
-            data_url: '019_fellowship_BNBtools'
+            project: 'BEPTools',
+            data_url: '019_fellowship_BEPtools'
       }, 
       {
             name:'Jonathan Dunne', 
@@ -216,12 +210,6 @@ var fellowship_fellows_context = {
             project: 'Project Incentivus',
             data_url: '015_fellowship_incentivus'
       }, 
-      {
-            name:'Nadeem Shaikh', 
-            img_url: './static/fellows/019_BNBTools_Nadeem-Shaikh.png', 
-            project: 'BNBTools',
-            data_url: '019_fellowship_BNBtools'
-     }, 
       {
             name:'Neal Roessler', 
             img_url: './static/fellows/038_Tokenfolio_Neal.png', 

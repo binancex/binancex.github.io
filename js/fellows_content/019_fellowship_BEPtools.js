@@ -18,26 +18,6 @@ var fellowship_fellow_detail_context = {
             social_media_handle:
                   "@jpthor__",
             },
-            {
-            fellow_name:
-                  "Cameron Stuart",
-            fellow_bio: 
-                  "Cameron has been a forward-thinking software engineer for over 15 years, leading large teams at Australia’s Bureau of Meteorology, Telstra and CanYa. Cam is an expert in distributed systems and developer operations, as well as managing complex implementations of resource-critical infrastructure. Cam has over 2 years experience in blockchain engineering, developing his own tools as well as building applications on Ethereum, Monero and Bitcoin. Cam is passionate about developer tooling and is looking forward to enhancing Binance’s ecosystem with the Binance Tools project. ", 
-            social_media_url:
-                  "https://twitter.com/cam_stuart",
-            social_media_handle:
-                  "@cam_stuart",
-            },
-            {
-            fellow_name:
-                  "Nadeem Shaikh",
-            fellow_bio: 
-                  "Nadeem is a Senior Full Stack Developer/ Blockchain Architect living in the beautiful city of Melbourne. Nadeem has been into enterprise software development for about 10 years and worked in the domains such as Marketplace (CanYa), Legal, Telecom (AT&T US), Finance (National Australian Bank , AIG - USA), Health and Education. Nadeem has a diverse professional experience which includes developing, modifying, debugging complex software applications aligned with critical business requirements. Nadeem is a certified IBM Solution Developer passionate about disruptive technologies such as Blockchain & IOT and the future with digital currencies. Nadeem is a polyglot programmer and well-versed in JAVA, Node, Angular, React, Solidity, and Golang.", 
-            social_media_url:
-                  "https://twitter.com/nadeem_s_shaikh",
-            social_media_handle:
-                  "@nadeem_s_shaikh",
-            },
       ]
       
 }
