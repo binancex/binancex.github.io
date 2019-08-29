@@ -1,6 +1,40 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145968526-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-145968526-1');
+    </script>
+
+    <!-- COMMON TAGS -->
+    <meta charset="utf-8">
+    <title>Binance X</title>
+    <!-- Search Engine -->
+    <meta name="description" content="Binance for Developers">
+    <meta name="image" content="https://binancex.dev/static/binancex-og-logo.png">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Binance X">
+    <meta itemprop="description" content="Binance for Developers">
+    <meta itemprop="image" content="https://binancex.dev/static/binancex-og-logo.png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Binance X">
+    <meta name="twitter:description" content="Binance for Developers">
+    <meta name="twitter:site" content="@binancex">
+    <meta name="twitter:image:src" content="https://binancex.dev/static/binancex-og-logo.png">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Binance X">
+    <meta name="og:description" content="Binance for Developers">
+    <meta name="og:image" content="https://binancex.dev/static/binancex-og-logo.png">
+    <meta name="og:url" content="https://binancex.dev">
+    <meta name="og:site_name" content="Binance X">
+    <meta name="og:type" content="website">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,36 +48,156 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">    
 
-    <link rel="stylesheet" href="x.css"> 
+    <link rel="stylesheet" href="css/x-styles.css">
 
-    <title>Binance X - Coming soon</title>
+    <script src="https://kit.fontawesome.com/ef293947d9.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.runtime.min.js"></script>
+    <script src="js/templates/templates.js"></script>
+
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"601146aeaa540f6ae7fe158fa","lid":"254799824c","uniqueMethods":true}) })</script>
+
+
   </head>
-  <body class="bg">
 
-    <div class="container" style="text-align: center; padding: 150px 0; font-family: 'IBM Plex Sans', sans-serif; color: #FFF;">
-		<img src="binancex.svg" style="width: 350px">
-		<div style="margin-top: 0px; font-size: 18px; 
-">
-		Coming soon.
-		</div>
-		<div style="margin-top: 45px; font-size: 18px; 
-">
-		<a href="https://forms.monday.com/forms/2e31c5aaf33ebb8489be3392459ab2bb" target="_new">[ Sign up for our newsletter ]</a>
-		</div>
+  <body>
+
+    <div class="b-navbar"></div>
+
+    <div class="container-fluid jumbotron-yellow">
+      <div class="row">
+
+        <div class="col-sm-5">
+          <div style="margin: 70px 35px 0px 35px;">
+            <div class="jumbotron-headline">
+              Igniting Innovation on the Binance Platform
+            </div>
+            <div class="jumbotron-sub-headline">
+              A new initiative to help developers leverage Binance infrastructure for their ideas and projects.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-7">
+          <div style="margin: 60px 40px;">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="border: 1px solid #666; padding: 0px">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="./fellowship_fellows.html">
+                    <img class="d-block w-100" src="static/meet_binance_x_fellows_4.png" alt="First slide">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="./collab_evangelists.html">
+                    <img class="d-block w-100" src="static/x-evangelist-banner.png" alt="Second slide">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://www.meetup.com/binanceX/events/264394864/" target="_new">
+                    <img class="d-block w-100" src="static/tlv_meetup_banner.png" alt="Third slide">
+                  </a>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-</div>
-</div>
+    <div class="container-fluid" style="background-color: #2E2E2E; padding: 40px 40px 40px 40px; justify-content: center">
+      <div style="font-size: 45px; color: #FFF; text-align: center;">
+        <img src="./static/help_succeed_dark.svg" style="width: 100px">
+      </div>
+      <div id="home-general-headline">
+        We help developers succeed.
+      </div>
+      <div style="margin-top: 40px">
+        <div class="container-fluid">
+          <div class="row" id="front-card-row">
+            <div class="col-sm-4">
+              <a href="./learn.html">
+                <div class="card home-card front-card" style="">
+                  <div class="home-card-container">
+                    <!--<i class="fas fa-graduation-cap home-card-icon" style="color: #2f3542"></i>-->
+                    <img src="./static/learn_white.svg" class="home-card-icon" style="">
+                  </div>
+                  <div class="card-title home-card-title">LEARN</div>
+                  <div class="card-body home-card-body">
+                    <p class="card-text home-card-text">
+                      From noobs to seasoned developers, you can find a growing library of documentation, tutorials and tips, everything that can get you started on how to build on the Binance platform.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-4">
+              <a href="./collaborate.html">
+                <div class="card home-card front-card">
+                  <div class="home-card-container">
+                    <img src="./static/collaborate_white.svg" class="home-card-icon" style="">
+                  </div>
+                  <div class="card-title home-card-title">COLLABORATE</div>
+                  <div class="card-body home-card-body">
+                    <p class="card-text home-card-text">
+                      As the proverb says, <q><i>If you want to go fast, go alone. If you want to go far, go together.</i></q>
+                      We help you find other like-minded developers to discuss ideas, share learnings and work together.  
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-4">
+              <a href="./grow.html">
+                <div class="card home-card front-card">
+                  <div class="home-card-container">
+                    <img src="./static/grow_white.svg" class="home-card-icon" style="">
+                  </div>
+                  <div class="card-title home-card-title">GROW</div>
+                  <div class="card-body home-card-body">
+                    <p class="card-text home-card-text">
+                      When your idea has found traction and product/market fit, it’s time to pour fuel on fire. We will help you find the right program within Binance to help your project achieve maximum reach and impact.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="b-footer"></div>
+
+
+    <script type="text/javascript">
+      var nav_context = {home_status: 'active'};
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- BinanceX js -->
+    <script src="js/binancex.js"></script>
+
   </body>
 </html>
