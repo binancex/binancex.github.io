@@ -1,0 +1,36 @@
+
+<div class="container-fluid fellowship-container" style="padding: 20px;">
+
+  <div style="font-size: 20px; font-weight: bold; margin: 10px 10px 10px 20px">
+      Binance X Fellows
+  </div>
+
+  {{#everyNth fellows_array 4}}
+    {{#if isModZeroNotFirst}}
+      </div>
+    {{/if}}
+    {{#if isModZero}}
+      <div class="row grow-row">
+    {{/if}}
+
+      <div class="col-sm-3">
+        <div class="card fellow-card" style="">
+          <div class="fellow-card-div">
+            <img src="{{img_url}}" class="card-img-top fellow-card-img">
+          </div>
+          <div class="card-body fellow-card-body">
+            <h5 class="card-title fellow-card-title">{{name}}</h5>
+            <p class="card-text fellow-card-text">{{project}}</p>
+            <div style="text-align: center">
+              <a href="{{detail_url}}" class="btn-sm btn-primary binance-button" style="text-align: center; font-size: 12px">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    {{#if isLast}}
+      </div>
+    {{/if}}
+  {{/everyNth}}
+
+</div>
