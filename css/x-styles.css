@@ -3,24 +3,27 @@
 }
 
 .navbar .navbar-nav .nav-link {
-    color: #C4C4C4;
+	padding: 0 0.8rem;
+  color: #C4C4C4;
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 .navbar .navbar-nav .nav-link:hover {
     color: #FFF;
 }
-
+.home-headline {
+	font-size: 50px !important;
+}
 .jumbotron-headline {
 	color: #000; 
 	font-size: 36px; 
-	font-weight: 600; 
-	line-height: 40px; 
+	font-weight: 700; 
+	line-height: 1; 
 }
 .jumbotron-sub-headline {
 	font-size: 18px; 
 	color: #AAA; 
 	margin: 15px 0 40px;
-	line-height: 24px;
+	line-height: 26px;
 }
 
 .jumbotron {
@@ -96,38 +99,47 @@
 	color: #FFF; 
 	text-align: center;
 }
-
+.home-container-fluid {
+	background: repeating-linear-gradient(135deg,#2e2e2e,#2e2e2e 5px,#282828 0,#282828 10px)
+}
 .home-card-container {
-	text-align: center;
-	margin: 0px 20px 20px 20px;
+	display: flex;
+	align-items: center;
 }
 .home-card-icon {
-	font-size: 56px;
-	width: 75px; 
+	width: 52px; 
+	height: 52px;
 	margin:0; 
 	padding: 0
 }
 .home-card {
-	background-color: #E6E6E6;
-	padding: 20px 15px; 
+	background-color: #1e1e1e;
+	padding: 26px 40px; 
 	margin: 10px 0;
 }
+.home-card:hover .home-card-title {
+	color: #F1BC14;
+}
+.home-card:hover .home-card-text {
+	color: #fff;
+}
 .home-card-body {
-	background-color: #FFF;
+	margin-top: 14px;
 	text-decoration: none;
-	color: #000;
+	color: #c4c4c4;
 }
 .home-card-title {
-	background-color: #3475BB; 
-	color: #FFF; 
-	padding: 5px 0; 
-	text-align: center; 
-	font-size: 18px; 
-	text-decoration: none; 
-	margin: 0;
+	margin-left: 14px;
+	color: #fff; 
+	font-size: 22px; 
+	font-weight: 600;
+	text-decoration: none;
+	transition: 0.2s;
 }
 .home-card-text {
-	padding: 0px 5px;
+	margin: 0;
+	padding-bottom: 6px;
+	transition: 0.2s;
 }
 
 #front-card-row a:hover {
@@ -136,19 +148,20 @@
   	filter: alpha(opacity=30);
 }
 .front-card {
-	padding: 20px 15px; 
-	margin: 10px 0;
 	border-radius: 8px;
 }
 
 a:hover .front-card {
 	text-decoration: none;
-  	background-color: #EEE;
 }
 .binance-button {
+	margin-top: 16px;
+	padding: 10px 16px;
+	display: inline-block;
 	background-color: #F1BC14;
 	border-color: #F1BC14;
 	color: #000;
+	font-weight: 500;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
@@ -168,7 +181,8 @@ a:hover .front-card {
 }
 .bottom-right-menu {
 	margin-bottom: 10px; 
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: 500;
 }
 .bottom-menu a {
 	color: #848E9C;
