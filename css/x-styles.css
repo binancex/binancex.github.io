@@ -2,6 +2,9 @@
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.navbar-nav {
+	align-items: center;
+}
 .navbar .navbar-nav .nav-link {
 	padding: 0 0.8rem;
   color: #C4C4C4;
@@ -155,13 +158,29 @@ a:hover .front-card {
 	text-decoration: none;
 }
 .binance-button {
-	margin-top: 16px;
 	padding: 10px 16px;
 	display: inline-block;
 	background-color: #F1BC14;
 	border-color: #F1BC14;
 	color: #000;
 	font-weight: 500;
+}
+.binance-button.header-btn {
+  margin-left: 1rem;
+  padding: 6px 12px;
+	font-size: .87rem;
+}
+.binance-button.hero-btn {
+	padding: 12px 22px;
+	font-size: 1rem;
+	color: #F1BC14;
+	background-color: #12161C;
+}
+.binance-button.hero-btn:hover,
+.binance-button.hero-btn:focus,
+.binance-button.hero-btn:active {
+	color: #F1BC14;
+	background-color: #12161C;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
@@ -391,7 +410,7 @@ h1.dib-post-title {
 .dib-post-date {
 	font-size: 14px;
 	font-style: italic;
-	marginL 0;
+	margin-left: 0;
 }
 .dib-post-featured-image {
 	max-width: 300px;
@@ -402,5 +421,5 @@ h1.dib-post-title {
 }
 .dib-post-featured-image {
 	width: 100%;
- 	height auto; /* default */
+ 	height: auto; /* default */
 }
