@@ -105,6 +105,9 @@
 	left: 50px;
 	transform: translateY(-50%);
 }
+.home-hero-img-wrap {
+	margin: 50px;
+}
 .home-hero-img {
 	width: 100%;
 }
@@ -113,18 +116,6 @@
 	font-weight: 500; 
 	color: #FFF; 
 	text-align: center;
-}
-@media (max-width: 576px) {
-	.home-hero-titlebox {
-		position: relative;
-		top: 3rem;
-		left: 0;
-		transform: none;
-		text-align: center;
-	}
-	.home-headline {
-		font-size: 32px !important;
-	}
 }
 .home-container-fluid {
 	background: repeating-linear-gradient(135deg,#2e2e2e,#2e2e2e 5px,#282828 0,#282828 10px)
@@ -142,7 +133,8 @@
 .home-card {
 	background-color: #1e1e1e;
 	padding: 26px 40px; 
-	margin: 10px 0;
+	/* margin: 10px 0; */
+	min-height: 276px;
 }
 .home-card:hover .home-card-title {
 	color: #F1BC14;
@@ -240,6 +232,7 @@ a:hover .front-card {
 }
 .grow-icon {
 	width: 60px;
+	padding: 10px 0;
 }
 .grow-card-img {
 	height: 60px;
@@ -447,4 +440,33 @@ h1.dib-post-title {
 .dib-post-featured-image {
 	width: 100%;
  	height: auto; /* default */
+}
+
+@media (max-width: 576px) {
+	.home-hero-titlebox {
+		position: relative;
+		top: 3rem;
+		left: 0;
+		transform: none;
+		text-align: center;
+	}
+	.home-headline {
+		font-size: 32px !important;
+	}
+	.jumbotron-yellow .jumbotron-sub-headline {
+		margin: 0;
+		margin-top: 10px;
+	}
+	.binance-button.hero-btn {
+		margin: 20px 0;
+	}
+	.home-hero-img-wrap {
+		margin: 0;
+		margin-top: 60px;
+		margin-bottom: 50px;
+	}
+	.home-card {
+		margin-bottom: 20px;
+		min-height: 0;
+	}
 }
