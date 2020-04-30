@@ -8,7 +8,7 @@ npm install -g handlebars
 
 ```
 cd js/templates/
-handlebars ./* -f templates.js
+handlebars ./*.handlebars -f templates.js
 ```
 
 refs: [handlebars doc](https://handlebarsjs.com/installation/precompilation.html#getting-started)

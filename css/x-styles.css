@@ -95,12 +95,36 @@
 	margin: 15px 0 40px
 }
 
+.home-hero-titlebox-wrap {
+	position: relative;
+}
+
+.home-hero-titlebox {
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	transform: translateY(-50%);
+}
+.home-hero-img {
+	width: 100%;
+}
 #home-general-headline {
-	margin-top: 10px; 
-	font-size: 30px; 
+	font-size: 32px; 
 	font-weight: 500; 
 	color: #FFF; 
 	text-align: center;
+}
+@media (max-width: 576px) {
+	.home-hero-titlebox {
+		position: relative;
+		top: 3rem;
+		left: 0;
+		transform: none;
+		text-align: center;
+	}
+	.home-headline {
+		font-size: 32px !important;
+	}
 }
 .home-container-fluid {
 	background: repeating-linear-gradient(135deg,#2e2e2e,#2e2e2e 5px,#282828 0,#282828 10px)
@@ -138,6 +162,7 @@
 	font-weight: 600;
 	text-decoration: none;
 	transition: 0.2s;
+	text-transform: uppercase;
 }
 .home-card-text {
 	margin: 0;
