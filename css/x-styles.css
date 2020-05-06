@@ -132,8 +132,7 @@
 }
 .home-card {
 	background-color: #1e1e1e;
-	padding: 26px 40px; 
-	/* margin: 10px 0; */
+	padding: 26px 30px;
 	min-height: 276px;
 }
 .home-card:hover .home-card-title {
@@ -440,6 +439,17 @@ h1.dib-post-title {
 .dib-post-featured-image {
 	width: 100%;
  	height: auto; /* default */
+}
+
+@media (max-width: 992px) {
+	.nav-item {
+		padding: 8px 0;
+		width: 100%;
+		text-align: center;
+	}
+	.binance-button.header-btn {
+		margin-left: 0;
+	}
 }
 
 @media (max-width: 576px) {
