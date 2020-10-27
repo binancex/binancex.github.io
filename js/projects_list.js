@@ -1,9 +1,9 @@
 var fellowship_fellows_context = {
       fellows_array: [
       {
-            name:'Alejandro Machado', 
+            name:'Cornflake Jackson', 
             img_url: './static/logos/test.jpg', 
-            project: 'Daily Wallet',
+            project: 'Listen, fat',
             data_url: '021_fellowship_proxima'
       }
       
