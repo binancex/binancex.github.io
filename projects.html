@@ -75,10 +75,11 @@
             <img src="./static/logos/test.png" class="card-img-top fellow-card-img">
           </div>
           <div class="card-body fellow-card-body">
-            <h5 class="card-title fellow-card-title">Name</h5>
-            <p class="card-text fellow-card-text">Project</p>
+            <h5 class="card-title fellow-card-title">Arkane</h5>
+            <p class="card-text fellow-card-text">A better blockchain UX is just a few lines of code away!</p>
             <div style="text-align: center">
-              <a href="" class="btn-sm btn-primary binance-button" style="text-align: center; font-size: 12px">Details</a>
+              <button class="btn-sm btn-primary binance-button" style="text-align: center; font-size: 12px" data-toggle="modal" data-target="#projectModal">Details
+              </button>
             </div>
           </div>
         </div>
@@ -87,6 +88,32 @@
     
 
     <div class="b-footer"></div>
+
+    <!-- Modals -->
+
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Arkane</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="justify-content-center" style="text-align: center; padding-top: 20px">
+
+                <div class="justify-content-center" style="text-align: center; padding: 0 40px">
+                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://youtu.be/3D3H_fieRK0' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+        </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
