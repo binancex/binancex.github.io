@@ -7,7 +7,7 @@ var fellowship_fellows_context = {
             data_url: '027_fellowship_daily_wallet'
       }
       
-/*      {
+/*    {
             name:'', 
             img_url: './static/fellows/.png', 
             project: '',
