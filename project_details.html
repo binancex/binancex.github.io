@@ -93,7 +93,7 @@
     <script type="text/javascript">
       var project = $.getUrlVar('project');
       var project_ind = $.getUrlVar('ind');
-      var project_data = './/js/fellows_content/' + project + '.js';
+      var project_data = './/js/projects_content/' + project + '.js';
 
       $.getScript(project_data, function() {
         var fellowship_content_template = Handlebars.templates['fellowship_fellows_detail'];
