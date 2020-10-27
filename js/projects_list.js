@@ -4,7 +4,7 @@ var fellowship_fellows_context = {
             name:'Alejandro Machado', 
             img_url: './static/logos/test.jpg', 
             project: 'Daily Wallet',
-            data_url: '027_fellowship_daily_wallet'
+            data_url: '021_fellowship_proxima'
       }
       
 /*    {
