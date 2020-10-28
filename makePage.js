@@ -28,10 +28,10 @@ function makeCards(){
 	            <img src="./static/logos/${key}.png" class="card-img-top fellow-card-img">
 	          </div>
 	          <div class="card-body fellow-card-body">
-	            <h5 class="card-title fellow-card-title">${key.name}</h5>
-	            <p class="card-text fellow-card-text">${key.oneliner}</p>
+	            <h5 class="card-title fellow-card-title">${projects[key].name}</h5>
+	            <p class="card-text fellow-card-text">${projects[key].oneliner}</p>
 	            <div style="text-align: center">
-	              <button class="btn-sm btn-primary binance-button" style="text-align: center; font-size: 12px" data-toggle="modal" data-target="#projectModal" onclick="makeModal(${key});">Details
+	              <button class="btn-sm btn-primary binance-button" style="text-align: center; font-size: 12px" data-toggle="modal" data-target="#projectModal" onclick="makeModal(${projects[key]});">Details
 	              </button>
 	            </div>
 	          </div>
@@ -41,4 +41,6 @@ function makeCards(){
 	});	
 }
 
-$( window ).load(makeCards());
+window.onload = function(){
+	makeCards();
+}
