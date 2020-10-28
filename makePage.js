@@ -1,5 +1,6 @@
 function makeModal(project){
 	$('#modalTitle').html(`${projects[project].name}`);
+	//$('#share').html(`<p><a href="" onclick="makeLink('${projects[project].name}');">Link to this project</a></p>`);
 	$('#modalBody').html(`
 	    <div class="justify-content-center py-3" style="text-align: center; padding-top: 20px">
 
@@ -45,4 +46,33 @@ function makeCards(){
 
 window.onload = function(){
 	makeCards();
+	checkURL();
 }
+
+
+function checkURL(){
+	//todo
+	//if window.location includes ? then extract it and open corresponding modal
+	//makeModal(name);
+	//$('#projectModal').modal('show');
+}
+
+function resetModal(){
+	//todo
+	//on modal close, empty the html div's
+	$('#projectModal').on('hidden.bs.modal', function (e) {
+	  $('#modalTitle').html('');
+	  $('#modalBody').html('');
+	});
+}
+
+function makeLink(name){
+	//todo
+	//copy to clibboard https://www.binancex.dev/projects.html?project=name
+	var copyText = `https://www.binancex.dev/projects.html?project=${name}`;
+	copyText.select();
+	copyText.setSelectionRange(0, 99999);
+	document.execCommand("copy");
+	alert("Copied the text: " + copyText.value);
+}
+
