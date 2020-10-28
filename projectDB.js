@@ -1,6 +1,6 @@
 var projects = 
 	{
-		"arkane":{
+		"Arkane":{
 			"name":"Arkane",
 			"oneliner":"A better blockchain UX is just a few lines of code away!",
 			"yt":"3D3H_fieRK0",
@@ -21,7 +21,7 @@ var projects =
 				}
 			]
 		},
-		"proxima":{
+		"Proxima":{
 			"name":"Proxima",
 			"oneliner":"Lots of neat tools in one place!",
 			"yt":"GGm72iNBF8E",

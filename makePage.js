@@ -33,7 +33,7 @@ function makeCards(){
 	            <h5 class="card-title fellow-card-title">${projects[key].name}</h5>
 	            <p class="card-text fellow-card-text">${projects[key].oneliner}</p>
 	            <div style="text-align: center">
-	              <button class="btn-sm btn-primary binance-button" style="text-align: center; font-size: 12px" data-toggle="modal" data-target="#projectModal" onclick="makeModal('${projects[key]}');">Details
+	              <button class="btn-sm btn-primary binance-button" style="text-align: center; font-size: 12px" data-toggle="modal" data-target="#projectModal" onclick="makeModal('${projects[key].name}');">Details
 	              </button>
 	            </div>
 	          </div>
