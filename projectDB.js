@@ -37,4 +37,3 @@ var projects =
 			]
 		}
 	}
-;
