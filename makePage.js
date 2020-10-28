@@ -1,6 +1,6 @@
 function makeModal(project){
 	$('#modalTitle').html(`${projects[project].name}`);
-	$('#modalBody').append(`
+	$('#modalBody').html(`
 	    <div class="justify-content-center py-3" style="text-align: center; padding-top: 20px">
 
 		    <div class="justify-content-center" style="text-align: center; padding: 0 40px">
