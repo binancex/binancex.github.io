@@ -25,10 +25,10 @@ function makeCards(){
 	Object.keys(projects).forEach(key => {
 		console.log(key);
 	  $('#cards').append(`
-	  	<div class="col-sm-3">
+	  	<div class="col-xl-2 col-sm-3 col-lg-2">
 	        <div class="card fellow-card" style="">
 	          <div class="fellow-card-div">
-	            <img src="./static/logos/${key}.png" class="card-img-top fellow-card-img">
+	            <img src="./static/logos/${key}.png" class="card-img-top fellow-card-img" >
 	          </div>
 	          <div class="card-body fellow-card-body">
 	            <h5 class="card-title fellow-card-title">${projects[key].name}</h5>
