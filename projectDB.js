@@ -1,39 +1,60 @@
 var projects = 
 	{
-		"Arkane":{
+		/*"Arkane":{
 			"name":"Arkane",
 			"oneliner":"A better blockchain UX is just a few lines of code away!",
-			"yt":"3D3H_fieRK0",
-			"desc":"Longer explanation",
+			"yt":"",
+			"desc":"Arkane Network enables game developers to add blockchain assets into their games through APIs. Their solution includes widgets, sandboxes, documentations, test environments, wallets and NFTs as gamers’ collectibles. Arkane Network currently supports more than 9 blockchains and services more than 14 game studios.",
 			"site":"arkane.network",
 			"founders":[
 				{
-					"name": "Jerry",
-					"title":"CEO",
-					"bio": "all about me",
-					"linkedin": "reidhoffman"
+					"name": "",
+					"title":"",
+					"bio": "",
+					"linkedin": ""
 				},
 				{
-					"name": "Kramer",
-					"title":"COO",
-					"bio": "all about me",
-					"linkedin": "reidhoffman"
+					"name": "",
+					"title":"",
+					"bio": "",
+					"linkedin": ""
 				}
 			]
 		},
-		"Proxima":{
-			"name":"Proxima",
-			"oneliner":"Lots of neat tools in one place!",
-			"yt":"GGm72iNBF8E",
-			"desc":"Longer explanation",
-			"site":"proxima.one",
+		"Anyswap":{
+			"name":"Anyswap",
+			"oneliner":"",
+			"yt":"",
+			"desc":"",
+			"site":"",
 			"founders":[
 				{
-					"name": "Alex",
-					"title":"CEO",
-					"bio": "all about me",
-					"linkedin": "alex-rusnak-147437a"
+					"name": "",
+					"title":"",
+					"bio": "",
+					"linkedin": ""
+				}
+			]
+		}*/
+
+	}
+
+
+/*
+,
+		"Title":{
+			"name":"",
+			"oneliner":"",
+			"yt":"",
+			"desc":"",
+			"site":"",
+			"founders":[
+				{
+					"name": "",
+					"title":"",
+					"bio": "",
+					"linkedin": ""
 				}
 			]
 		}
-	}
+		*/

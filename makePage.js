@@ -58,7 +58,6 @@ function checkURL(){
 }
 
 function resetModal(){
-	//todo
 	//on modal close, empty the html div's
 	$('#projectModal').on('hidden.bs.modal', function (e) {
 	  $('#modalTitle').html('');
