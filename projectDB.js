@@ -49,7 +49,7 @@ var projects =
 					"title":"CEO",
 					"linkedin": "timdierckxsens"
 				},
-{
+				{
 					"name": "Tim Dierckxsens",
 					"title":"CSO",
 					"linkedin": "timdierckxsens"
