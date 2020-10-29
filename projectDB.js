@@ -37,6 +37,36 @@ var projects =
 				}
 			]
 		},
+		"ARKANE":{
+			"name":"ARKANE NETWORK",
+			"oneliner":"Build blockchain apps users love",
+			"yt":"AlMlYajqCzM",
+			"desc":"Arkane allows you to easily integrate your app with several blockchains, by making it easy to create blockchain wallets, create different asset types such as fungible (ERC20), and non-fungible tokens (ERC721, and ERC1155) and interact with smart contracts. Next to a superior developer experience, you can give your users a user-friendly interface.",
+			"site":"arkane.network",
+			"founders":[
+				{
+					"name": "Karel Striegel",
+					"title":"CEO",
+					"linkedin": "timdierckxsens"
+				},
+{
+					"name": "Tim Dierckxsens",
+					"title":"CSO",
+					"linkedin": "timdierckxsens"
+				},
+				{
+					"name": "Gerbert Vandenberghe",
+					"title":"CPO",
+					"linkedin": "gerbertvandenberghe"
+				},
+				{
+					"name": "Davy Van Roy",
+					"title":"CTO",
+					"linkedin": "davyvanroy"
+				}
+			]
+		}
+
 
 
 	}
