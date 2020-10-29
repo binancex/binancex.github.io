@@ -15,7 +15,29 @@ var projects =
 					}
 				
 			]
-		}
+		},
+		"PARSIQ":{
+			"name":"PARSIQ",
+			"oneliner":"PARSIQ is a blockchain monitoring and automation platform that turns data into actions.",
+			"yt":"9GWcP0DrfEw&t",
+			"desc":"PARSIQ empowers individuals and companies to automate workflows by connecting blockchains to off-chain apps, devices and web services. Leveraging real-time monitoring triggers at scale results in increased efficiency, transparency, better outcomes and lower costs. Our solutions enable all functions of an organization to automate processes including compliance, financial accounting, real-time audit, analysis, risk assessment, customer experience and product innovation. PARSIQ is the seamless bridge between blockchains and the real world that allows everyone to understand and manipulate blockchain data streams.",
+			"site":"parsiq.net",
+			"founders":[
+				{
+					"name": "Anatoly Ressin",
+					"title":"Chief Blockchain Architect",
+					"bio": "Anatoly graduated from Transport and Telecommunication Institute with a MSc Computer Science degree. He is a skillful university lecturer with over a decade of experience. With over 20 years of accumulated knowledge in Computer Science from various A-Level companies like CT.Co, Anatoly became one of the most skilled blockchain architects in the Baltic States. Successfully founded his own software development company - Blockvis. Has been involved in the development of Civic, Bitfury Exonum and Deloitte blockchain solutions, providing competence in cryptography, mathematics, smart contracts, data structures and algorithms.",
+					"linkedin": "anatolyressin"
+				},
+				{
+					"name": "Tom Tirman",
+					"title":"CEO",
+					"bio": "Tom has extensive experience in business and finance, having worked in both traditional banking institutions and fintech companies as well as having been an entrepreneur. While working in management positions in finance and operations departments, Tom accumulated a track record of building teams ground up and transforming existing teams to deliver exponential improvements. Tom holds a law degree from TalTech University. He focuses his business on bringing disruptive next-gen technologies to the masses.",
+					"linkedin": "tom-tirman-42037917b"
+				}
+			]
+		},
+
 
 	}
 
