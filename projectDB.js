@@ -66,7 +66,7 @@ var projects =
 				}
 			]
 		},
-		"Project Name(Capitalized)":{
+		"Gitcoin":{
 			"name":"Gitcoin",
 			"oneliner":"Gitcoin is a platform for growing and sustaining remote-first, open source developer communities.",
 			"yt":"Youtube video ID (id code only, no url)",
