@@ -127,7 +127,7 @@ var projects =
 					"title":"Co-founder",
 					"bio": "Founder / CEO Fusion Foundation, Co Founder of Anyswap， Founder of BitSE, (VeChain & QTUM), IBM",
 					"linkedin": "dejun-qian-aa027136"
-				}
+				},
 				{
 					"name": "GuochangXu",
 					"title":"Co-founder",
