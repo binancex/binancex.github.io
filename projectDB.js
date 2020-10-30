@@ -108,7 +108,35 @@ var projects =
 					"linkedin": "n/a"
 				}
 			]
+		},
+		"AnySwap":{
+			"name":"AnySwap",
+			"oneliner":"Anyswap is a fully decentralized cross-chain swap protocol.",
+			"yt":"UCrLZAS83TFuy-EdbT-44kng",
+			"desc":"AnySwap is a fully decentralized cross chain swap protocol, with automated pricing and liquidity system. AnySwap enables swaps between any coins on any blockchain which uses ECDSA or EDDSA as signature algorithm, including BTC, ETH, BNB, USDT, XRP, LTC, FSN, etc.",
+			"site":"anyswap.exchange",
+			"founders":[
+				{
+					"name": "Zhaojun",
+					"title":"Co-founder",
+					"bio": "AnySwap CEO",
+					"linkedin": ""
+				},
+				{
+					"name": "DeJunQian",
+					"title":"Co-founder",
+					"bio": "Founder / CEO Fusion Foundation, Co Founder of Anyswap， Founder of BitSE, (VeChain & QTUM), IBM",
+					"linkedin": "dejun-qian-aa027136"
+				}
+				{
+					"name": "GuochangXu",
+					"title":"Co-founder",
+					"bio": "Co-founder of Fusio",
+					"linkedin": "xu-guochang-a6a98976"
+				}
+			]
 		}
+
 
 
 
