@@ -93,7 +93,23 @@ var projects =
 				}
 
 			]
+		},
+		"Defistation":{
+			"name":"Defistation",
+			"oneliner":"DeFi analytics and leaderboard for Binance Smart Chain",
+			"yt":"GNmAJJ2al1c",
+			"desc":"Defistation is a DeFi leaderboard and analytics website for projects building and operating on Binance Smart Chain. Users can conveniently discover and track the total value locked into DeFi projects on BSC in real-time. The metrics and chart displayed on Defistation allows you to gain insight into the growing trends and movements in decentralized finance.",
+			"site":"defistation.io",
+			"founders":[
+				{
+					"name": "Taehwan Um",
+					"title":"CEO",
+					"bio": "Blockchain Investor",
+					"linkedin": "n/a"
+				}
+			]
 		}
+
 
 
 
