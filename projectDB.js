@@ -65,7 +65,36 @@ var projects =
 					"linkedin": "davyvanroy"
 				}
 			]
+		},
+		"Project Name(Capitalized)":{
+			"name":"Gitcoin",
+			"oneliner":"Gitcoin is a platform for growing and sustaining remote-first, open source developer communities.",
+			"yt":"Youtube video ID (id code only, no url)",
+			"desc":"Gitcoin has helped over 50,000 developers earn over $8M through bounties, hackathons, grants, and more. These products together help developers go from 0 to 1 in web3 as they earn, learn, and build great relationships.",
+			"site":"https://gitcoin.co",
+			"founders":[
+				{
+					"name": "Kevin Owocki",
+					"title":"Co-Founder, CEO",
+					"bio": "Kevin is a long time founder and engineering leader, having hired over 50 engineers in his past roles. His passion for open source software comes from using it almost every day and seeing the value it provides. ",
+					"linkedin": "https://www.linkedin.com/in/owocki"
+				},
+				{
+					"name": "Scott Moore",
+					"title":"Co-Founder, Developer Relations Lead",
+					"bio": "Scott’s background in private equity soured him on the traditional financial world in 2015, and he’s been seeking out ways to make a more equitable system for founders and creators ever since.",  
+					"linkedin": "linkedin ID (id only, no url)"
+				},
+	{
+					"name": "Vivek Singh",
+					"title":"Co-Founder, Co-Founder, COO",
+					"bio": "Vivek’s background in consulting helped him realize the importance of organization and building strong relationships, but consulting never really felt like a community. He’s been seeking ways to help build 21st century communities in web3 ever since. ",
+					"linkedin": "https://www.linkedin.com/in/vivek-singh-b5a4b675"
+				}
+
+			]
 		}
+
 
 
 
