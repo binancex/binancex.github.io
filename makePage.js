@@ -52,7 +52,7 @@ window.onload = function(){
 
 function checkURL(){
 	//https://binancex.dev/projects.html?project=name
-	if(window.location.href).includes("?project="){
+	if(window.location.href.includes("?project=")){
 		let proj = window.location.href.split('=')[1];
 		makeModal(proj);
 		$('#projectModal').modal('show');
