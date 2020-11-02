@@ -1,6 +1,9 @@
 function makeModal(project){
 	$('#modalTitle').html(`${projects[project].name}`);
-	//$('#share').html(`<p><a href="" onclick="makeLink('${projects[project].name}');">Link to this project</a></p>`);
+	$('#share').html(`<input type="text" value='https://binancex.dev/projects.html?project=${projects[project].name}' id='${projects[project].name}' style="position:absolute;left:-1000px;top:-1000px;">
+  <a onclick="makeLink('${projects[project].name}')" style="cursor:cell;">
+     Click to copy project link
+  </a>`);
 	$('#modalBody').html(`
 	    <div class="justify-content-center py-3" style="text-align: center; padding-top: 20px">
 
@@ -52,6 +55,7 @@ window.onload = function(){
 
 function checkURL(){
 	//https://binancex.dev/projects.html?project=name
+	//https://binancex.dev/projects.html?project=${projects[project].name}
 	if(window.location.href.includes("?project=")){
 		let proj = window.location.href.split('=')[1];
 		makeModal(proj);
@@ -67,13 +71,25 @@ function resetModal(){
 	});
 }
 
-function makeLink(name){
-	//todo
-	//copy to clibboard https://www.binancex.dev/projects.html?project=name
-	var copyText = `https://www.binancex.dev/projects.html?project=${name}`;
+
+/*function makeLink(value) {
+    var tempInput = document.createElement("input");
+    tempInput.value = value;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+    alert("Copied project link: " + value);
+}*/
+function makeLink(name) {
+	var copyText = document.getElementById(name);
 	copyText.select();
-	copyText.setSelectionRange(0, 99999);
-	document.execCommand("copy");
-	alert("Copied the text: " + copyText.value);
+	document.execCommand("copy"); //this function copies the text of the input with ID "copyInp"
+    alert("Copied project link: " + copyText.value);
 }
 
+
+/*`<input type="text" value='https://binancex.dev/projects.html?project=${projects[project].name}' id='${projects[project].name}'>
+  <a onclick="makeLink('${projects[project].name}')" style="cursor:cell;">
+     Click to copy project link
+  </a>`*/
