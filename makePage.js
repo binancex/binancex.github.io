@@ -51,10 +51,12 @@ window.onload = function(){
 
 
 function checkURL(){
-	//todo
-	//if window.location includes ? then extract it and open corresponding modal
-	//makeModal(name);
-	//$('#projectModal').modal('show');
+	//https://binancex.dev/projects.html?project=name
+	if(window.location.href).includes("?project="){
+		let proj = window.location.href.split('=')[1];
+		makeModal(proj);
+		$('#projectModal').modal('show');
+	}
 }
 
 function resetModal(){
