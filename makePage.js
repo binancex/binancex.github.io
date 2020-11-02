@@ -27,6 +27,7 @@ function makeModal(project){
 function makeCards(){
 	Object.keys(projects).forEach(key => {
 		console.log(key);
+		//@todo: tidy up column width so cards are not such different heights
 	  $('#cards').append(`
 	  	<div class="col-xl-2 col-sm-3 col-lg-2">
 	        <div class="card fellow-card" style="">
@@ -52,10 +53,7 @@ window.onload = function(){
 	checkURL();
 }
 
-
 function checkURL(){
-	//https://binancex.dev/projects.html?project=name
-	//https://binancex.dev/projects.html?project=${projects[project].name}
 	if(window.location.href.includes("?project=")){
 		let proj = window.location.href.split('=')[1];
 		makeModal(proj);
@@ -64,7 +62,6 @@ function checkURL(){
 }
 
 function resetModal(){
-	//on modal close, empty the html div's
 	$('#projectModal').on('hidden.bs.modal', function (e) {
 	  $('#modalTitle').html('');
 	  $('#modalBody').html('');
@@ -72,24 +69,9 @@ function resetModal(){
 }
 
 
-/*function makeLink(value) {
-    var tempInput = document.createElement("input");
-    tempInput.value = value;
-    document.body.appendChild(tempInput);
-    tempInput.select();
-    document.execCommand("copy");
-    document.body.removeChild(tempInput);
-    alert("Copied project link: " + value);
-}*/
 function makeLink(name) {
 	var copyText = document.getElementById(name);
 	copyText.select();
-	document.execCommand("copy"); //this function copies the text of the input with ID "copyInp"
+	document.execCommand("copy");
     alert("Copied project link: " + copyText.value);
 }
-
-
-/*`<input type="text" value='https://binancex.dev/projects.html?project=${projects[project].name}' id='${projects[project].name}'>
-  <a onclick="makeLink('${projects[project].name}')" style="cursor:cell;">
-     Click to copy project link
-  </a>`*/
