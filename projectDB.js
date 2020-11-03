@@ -3,7 +3,7 @@ var projects =
 		"JustLiquidity":{
 			"name":"JustLiquidity",
 			"oneliner":"JustLiquidity aims to create a Liquidity Protocol mechanism to protect token holders from low liquidity and team dumps by instituting token unlocking schedules in the smart contract.",
-			"yt":"UCNKC5b1NWaOGftMmgQ7OYVg",
+			"yt":"hC76BOC3xoM",
 			"desc":"There are currently many small cap and new tokens in the market. These are great concepts and projects, but when people go to trade them, there is either no buyer or seller. So there is no liquidity. It’s a great hassle that everyone has experienced at some point or other. The other thing we noticed and that’s something everyone today knows -  is that teams and projects dump their share of tokens. No one likes it. They just want to make a quick buck, and let other hodlers and investors down. We therefore created JustLiquidity as a protocol for SwapLiquidity to solve both these problems at once – there will always be liquidity, and team tokens will be locked. Important to note - this is all 100% decentralized too. Difference Uniswap and JustLiquidity: On Uniswap you need to always provide the main currency which is ETH and the Project Token, but with the JustLiquidity Protocol you just need to provide the Liquidity ‘Only in BNB’ and not ‘BNB and the Token’.  (soon BUSD and ETHb will be available as well). The Liquidity Protocol is the Traders Paradise because it Supports JUL with Liquidity and Protects the Hodlers from Team and Developer Dumps! ",
 			"site":"justliquidity.org",
 			"founders":[
@@ -19,7 +19,7 @@ var projects =
 		"PARSIQ":{
 			"name":"PARSIQ",
 			"oneliner":"PARSIQ is a blockchain monitoring and automation platform that turns data into actions.",
-			"yt":"9GWcP0DrfEw&t",
+			"yt":"YEuAuK-tC2k",
 			"desc":"PARSIQ empowers individuals and companies to automate workflows by connecting blockchains to off-chain apps, devices and web services. Leveraging real-time monitoring triggers at scale results in increased efficiency, transparency, better outcomes and lower costs. Our solutions enable all functions of an organization to automate processes including compliance, financial accounting, real-time audit, analysis, risk assessment, customer experience and product innovation. PARSIQ is the seamless bridge between blockchains and the real world that allows everyone to understand and manipulate blockchain data streams.",
 			"site":"parsiq.net",
 			"founders":[
