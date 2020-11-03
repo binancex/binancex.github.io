@@ -39,24 +39,25 @@ var projects =
 		},
 		"ARKANE":{
 			"name":"ARKANE",
-			"oneliner":"Build blockchain apps users love",
+			"oneliner":"Developer-friendly blockchain platform and services to create, secure and monetise digital assets",
 			"yt":"AlMlYajqCzM",
 			"desc":"Arkane allows you to easily integrate your app with several blockchains, by making it easy to create blockchain wallets, create different asset types such as fungible (ERC20), and non-fungible tokens (ERC721, and ERC1155) and interact with smart contracts. Next to a superior developer experience, you can give your users a user-friendly interface.",
 			"site":"arkane.network",
 			"founders":[
 				{
 					"name": "Karel Striegel",
-					"title":"CEO",
+					"title":"CPO",
+					"bio": "Tim is the Co-Founder of Arkane Network, the developer-friendly blockchain platform and wallet provider. In 2020, Arkane graduated from imec.Istart business accelerator and shifted their industry-agnostic approach to focus on helping game studios and publishers leverage the benefits of the technology. Tim has a Master’s degree in Business Science and earned a professional degree in Business Analysis at The Master Labs. He loves to learn, play tennis, share ideas and foster great relationships.",
 					"linkedin": "timdierckxsens"
 				},
 				{
 					"name": "Tim Dierckxsens",
-					"title":"CSO",
+					"title":"CEO",
 					"linkedin": "timdierckxsens"
 				},
 				{
 					"name": "Gerbert Vandenberghe",
-					"title":"CPO",
+					"title":"CIO",
 					"linkedin": "gerbertvandenberghe"
 				},
 				{
