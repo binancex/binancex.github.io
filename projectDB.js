@@ -113,7 +113,7 @@ var projects =
 		"AnySwap":{
 			"name":"AnySwap",
 			"oneliner":"Anyswap is a fully decentralized cross-chain swap protocol.",
-			"yt":"UCrLZAS83TFuy-EdbT-44kng",
+			"yt":"gNMyfB_s6V4",
 			"desc":"AnySwap is a fully decentralized cross chain swap protocol, with automated pricing and liquidity system. AnySwap enables swaps between any coins on any blockchain which uses ECDSA or EDDSA as signature algorithm, including BTC, ETH, BNB, USDT, XRP, LTC, FSN, etc.",
 			"site":"anyswap.exchange",
 			"founders":[
